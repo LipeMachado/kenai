@@ -5,6 +5,7 @@ export const NavBarContainerDiv = styled.div`
     align-items: center;
     justify-content: space-around;
     height: 10vh;
+    background-color: transparent;
 `;
 
 export const NavBarLogoContainerDiv = styled.div`
