@@ -1,3 +1,4 @@
+import { HeaderSection } from '../../Sections/HeaderSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
 import {
     HomePageContainerDiv,
@@ -8,6 +9,7 @@ export function HomePage() {
         <>
             <HomePageContainerDiv>
                 <NavBarSection />
+                <HeaderSection />
             </HomePageContainerDiv>
         </>
     )

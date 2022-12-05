@@ -11,4 +11,8 @@ export const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
         font-family: 'Poppins', sans-serif;
     }
+    
+    body {
+        background-color: #1D1D1D;
+    }
 `;
