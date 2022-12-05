@@ -16,6 +16,12 @@ export const CardMoviesContainerArticle = styled.article`
     padding: 2rem;
     position: relative;
     border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 2px 25px 0 #452d71;
+    }
 `;
 
 export const CardMoviesInfoDiv = styled.div`
@@ -31,5 +37,4 @@ export const CardMovieInfoNameMovieDiv = styled.div`
     color: #ffffff;
     line-height: 3.2rem;
     font-weight: 600;
-    
 `;
