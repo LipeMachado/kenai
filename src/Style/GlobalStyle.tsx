@@ -15,4 +15,15 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #1D1D1D;
     }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #ffffff;
+        border-radius: 8px;
+    }
 `;
