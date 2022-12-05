@@ -3,10 +3,7 @@ import styled from 'styled-components'
 import HeaderBackground from '../../Assets/headerBackground.png'
 
 export const HeaderContainerDiv = styled.div`
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
 `;
 
 export const HeaderBackgroundDiv = styled.div`
@@ -35,6 +32,15 @@ export const HeaderBackgroundGradientRightDiv = styled.div`
     right: 0;
     width: 40%;
     height: 100%;
+    position: absolute;
+    z-index: 1;
+`;
+
+export const HeaderBackgroundGradientBottomDiv = styled.div`
+    background: linear-gradient(0deg,#1D1D1D 4.67%,rgba(29,29,29,0) 101.21%);
+    bottom: 0;
+    width: 100%;
+    height: 50%;
     position: absolute;
     z-index: 1;
 `;

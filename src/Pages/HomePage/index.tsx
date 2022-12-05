@@ -1,3 +1,4 @@
+import { BodySection } from '../../Sections/BodySection'
 import { HeaderSection } from '../../Sections/HeaderSection'
 import { NavBarSection } from '../../Sections/NavBarSection'
 import {
@@ -10,6 +11,7 @@ export function HomePage() {
             <HomePageContainerDiv>
                 <NavBarSection />
                 <HeaderSection />
+                <BodySection />
             </HomePageContainerDiv>
         </>
     )

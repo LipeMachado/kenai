@@ -12,7 +12,8 @@ import {
     HeaderTitleMovieContainerDiv,
     HeaderResumeMovieContainerDiv,
     HeaderButtonViewMovieContainerDiv,
-    ScrollDownButtonContainerDiv
+    ScrollDownButtonContainerDiv,
+    HeaderBackgroundGradientBottomDiv
 } from './style'
 
 export function HeaderSection() {
@@ -22,6 +23,7 @@ export function HeaderSection() {
                 <HeaderBackgroundDiv />
                 <HeaderBackgroundGradientLeftDiv />
                 <HeaderBackgroundGradientRightDiv />
+                <HeaderBackgroundGradientBottomDiv />
                 <HeaderContentContainerDiv>
                     <HeaderCategoryContainerDiv>
                         <Category />

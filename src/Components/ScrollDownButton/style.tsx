@@ -10,6 +10,7 @@ export const ScrollDownButtonDiv = styled.button`
     border-radius: 50px;
     cursor: pointer;
     background: transparent;
+    z-index: 999;
 
     &::before,
     &::after {
@@ -23,7 +24,7 @@ export const ScrollDownButtonDiv = styled.button`
         border: 2px solid #ffffff;
         border-top: transparent;
         border-left: transparent;
-        animation: scroll-down 1s ease-in-out infinite;
+        animation: scrollDown 1s ease-in-out infinite;
     }
 
     &::before {
@@ -31,7 +32,7 @@ export const ScrollDownButtonDiv = styled.button`
         animation-delay: 0.3s;
     }
 
-    @keyframes scroll-down {
+    @keyframes scrollDown {
         0% {
             opacity: 0;
         }
